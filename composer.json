@@ -1,0 +1,30 @@
+{
+    "name": "superdevzhao/volan",
+    "type": "library",
+    "description": "PHP array schema validator",
+    "keywords": ["php", "validation"],
+    "homepage": "https://github.com/superdevzhao/volan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Super Dev",
+            "email": "achmun0526@gmail.com",
+            "homepage": "https://www.linkedin.com/in/zhaolin0526/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0|>=5.4",
+        "monolog/monolog": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8|~5.7",
+        "friendsofphp/php-cs-fixer": "*"
+   },
+
+    "autoload": {
+        "psr-4": {
+            "Volan\\": "src/"
+        }
+    }
+}
